@@ -4,6 +4,8 @@ declare -A apks
 
 apks["com.google.android.youtube.apk"]="https://youtube.en.uptodown.com/android/apps/16906/versions"
 apks["com.google.android.apps.youtube.music.apk"]="https://youtube-music.en.uptodown.com/android/apps/146929/versions"
+apks["com.twitter.android"]="https://twitter.en.uptodown.com/android/apps/16792/versions"
+apks["com.reddit.frontpage"]="https://reddit-official-app.en.uptodown.com/android/apps/179119/versions"
 
 ## Functions
 
