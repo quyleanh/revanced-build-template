@@ -89,12 +89,12 @@ echo "************************************"
 mkdir -p build
 
 if [ -f "com.google.android.youtube.apk" ]; then
-    echo "Building Root APK"
-    java -jar revanced-cli.jar -m revanced-integrations.apk -b revanced-patches.jar --mount \
-        -e microg-support ${patches[@]} \
-        $EXPERIMENTAL \
-        -a com.google.android.youtube.apk -o build/revanced-root.apk
-    echo "Building Non-root APK"
+    # echo "Building Root APK"
+    # java -jar revanced-cli.jar -m revanced-integrations.apk -b revanced-patches.jar --mount \
+    #     -e microg-support ${patches[@]} \
+    #     $EXPERIMENTAL \
+    #     -a com.google.android.youtube.apk -o build/revanced-root.apk
+    # echo "Building Non-root APK"
     java -jar revanced-cli.jar -m revanced-integrations.apk -b revanced-patches.jar \
         ${patches[@]} \
         $EXPERIMENTAL \
@@ -107,11 +107,11 @@ echo "************************************"
 echo "Building YouTube Music APK"
 echo "************************************"
 if [ -f "com.google.android.apps.youtube.music.apk" ]; then
-    echo "Building Root APK"
-    java -jar revanced-cli.jar -b revanced-patches.jar --mount \
-        -e microg-support ${patches[@]} \
-        $EXPERIMENTAL \
-        -a com.google.android.apps.youtube.music.apk -o build/revanced-music-root.apk
+    # echo "Building Root APK"
+    # java -jar revanced-cli.jar -b revanced-patches.jar --mount \
+    #     -e microg-support ${patches[@]} \
+    #     $EXPERIMENTAL \
+    #     -a com.google.android.apps.youtube.music.apk -o build/revanced-music-root.apk
     echo "Building Non-root APK"
     java -jar revanced-cli.jar -b revanced-patches.jar \
         ${patches[@]} \
@@ -125,11 +125,11 @@ echo "************************************"
 echo "Building Twitter APK"
 echo "************************************"
 if [ -f "com.twitter.android" ]; then
-    echo "Building Root APK"
-    java -jar revanced-cli.jar -b revanced-patches.jar --mount \
-        -e microg-support ${patches[@]} \
-        $EXPERIMENTAL \
-        -a com.twitter.android -o build/revanced-twitter-root.apk
+    # echo "Building Root APK"
+    # java -jar revanced-cli.jar -b revanced-patches.jar --mount \
+    #     -e microg-support ${patches[@]} \
+    #     $EXPERIMENTAL \
+    #     -a com.twitter.android -o build/revanced-twitter-root.apk
     echo "Building Non-root APK"
     java -jar revanced-cli.jar -b revanced-patches.jar \
         ${patches[@]} \
@@ -143,11 +143,11 @@ echo "************************************"
 echo "Building Reddit Official APK"
 echo "************************************"
 if [ -f "com.reddit.frontpage" ]; then
-    echo "Building Root APK"
-    java -jar revanced-cli.jar -b revanced-patches.jar --mount \
-        -e microg-support ${patches[@]} \
-        $EXPERIMENTAL \
-        -a com.reddit.frontpage -o build/revanced-reddit-root.apk
+    # echo "Building Root APK"
+    # java -jar revanced-cli.jar -b revanced-patches.jar --mount \
+    #     -e microg-support ${patches[@]} \
+    #     $EXPERIMENTAL \
+    #     -a com.reddit.frontpage -o build/revanced-reddit-root.apk
     echo "Building Non-root APK"
     java -jar revanced-cli.jar -b revanced-patches.jar \
         ${patches[@]} \
