@@ -10,8 +10,8 @@ declare -A apks
 
 apks["com.google.android.youtube.apk"]="https://youtube.en.uptodown.com/android/download"
 apks["com.google.android.apps.youtube.music.apk"]="https://youtube-music.en.uptodown.com/android/download"
-apks["com.twitter.android"]="https://twitter.en.uptodown.com/android/download"
-apks["com.reddit.frontpage"]="https://reddit-official-app.en.uptodown.com/android/download"
+apks["com.twitter.android.apk"]="https://twitter.en.uptodown.com/android/download"
+apks["com.reddit.frontpage.apk"]="https://reddit-official-app.en.uptodown.com/android/download"
 
 ## Functions
 

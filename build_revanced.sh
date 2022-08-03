@@ -134,7 +134,7 @@ if [ -f "com.twitter.android" ]; then
     java -jar revanced-cli.jar -b revanced-patches.jar \
         ${patches[@]} \
         $EXPERIMENTAL \
-        -a com.twitter.android -o build/revanced-twitter-nonroot.apk
+        -a com.twitter.android.apk -o build/revanced-twitter-nonroot.apk
 else
     echo "Cannot find Twitter APK, skipping build"
 fi
@@ -152,7 +152,7 @@ if [ -f "com.reddit.frontpage" ]; then
     java -jar revanced-cli.jar -b revanced-patches.jar \
         ${patches[@]} \
         $EXPERIMENTAL \
-        -a com.reddit.frontpage -o build/revanced-reddit-nonroot.apk
+        -a com.reddit.frontpage.apk -o build/revanced-reddit-nonroot.apk
 else
     echo "Cannot find Reddit Official APK, skipping build"
 fi
