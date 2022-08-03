@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # File containing all patches
 patch_file=./patches.txt
